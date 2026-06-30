@@ -63,9 +63,11 @@ const CONFIG = {
     photos: [
       // Add as many photos as you want. Each entry = one card in the grid.
       // src: file path to image | caption: text shown below it
-      { src: "images/gallery/photo1.jpg", caption: "Write a caption here" },
-      { src: "images/gallery/photo2.jpg", caption: "Write a caption here" },
-      { src: "images/gallery/photo3.jpg", caption: "Write a caption here" },
+      { src: "images/gallery/photo1.JPG", caption: "Write a caption here" },
+      { src: "images/gallery/photo2.JPG", caption: "Write a caption here" },
+      { src: "images/gallery/photo3.JPG", caption: "Write a caption here" },
+      { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
+      { src: "images/gallery/photo5.png", caption: "Write a caption here" },
       // To add more, copy the line above, paste it below, change filename + caption.
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
     ],
