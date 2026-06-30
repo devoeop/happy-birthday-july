@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Letter For You 💌</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shared.css">
+  <style>
+    /* ── LETTER LAYOUT ─────────────────────────────────────── */
+    .letter-wrapper {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      padding: 3.5rem 1.5rem 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Decorative heading above the letter card */
+    .letter-heading {
+      font-family: 'Dancing Script', cursive;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      color: #fff;
+      text-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    /* ── LETTER CARD ───────────────────────────────────────── */
+    .letter-card {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 20px;
+      padding: 3rem 3.5rem;
+      max-width: 720px;
+      width: 100%;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.28);
+    }
+
+    /* ── PARAGRAPHS ────────────────────────────────────────── */
+    /* Each paragraph in CONFIG.letter.paragraphs becomes one <p> */
+    .letter-card p {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      color: rgba(255, 255, 255, 0.93);
+      margin-bottom: 1.5rem;
+      text-indent: 2em;          /* Classic letter indent */
+    }
+
+    .letter-card p:last-of-type {
+      margin-bottom: 0;
+    }
+
+    /* ── SIGN-OFF ───────────────────────────────────────────── */
+    .letter-signoff {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      text-align: right;
+    }
+
+    .signoff-line {
+      display: block;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 0.3rem;
+    }
+
+    .signoff-name {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.2rem;
+      color: var(--primary);
+      display: block;
+    }
+
+    /* ── NEXT BUTTON ───────────────────────────────────────── */
+    .letter-nav {
+      margin-top: 2.5rem;
+      text-align: center;
+    }
+
+    /* ── RESPONSIVE ────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .letter-card             { padding: 2rem 1.5rem; }
+      .letter-card p           { font-size: 1rem; text-indent: 1.2em; }
+      .signoff-name            { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-screen background image -->
+  <div class="bg-image"   id="bgImage"></div>
+  <div class="bg-overlay"></div>
+
+  <!-- Effects -->
+  <canvas id="sparkleCanvas"></canvas>
+  <div class="hearts-container" id="heartsContainer"></div>
+
+  <!-- ── PAGE CONTENT ── -->
+  <div class="letter-wrapper">
+
+    <h1 class="letter-heading" id="letterHeading"></h1>
+
+    <div class="letter-card">
+      <!-- Paragraphs injected here by JS -->
+      <div id="letterBody"></div>
+
+      <!-- Sign-off block -->
+      <div class="letter-signoff">
+        <span class="signoff-line" id="letterSign"></span>
+        <span class="signoff-name" id="letterName"></span>
+      </div>
+    </div>
+
+    <!-- Navigation to gallery -->
+    <div class="letter-nav">
+      <button class="btn-primary" id="nextBtn">See Our Memories →</button>
+    </div>
+
+  </div>
+
+  <script src="config.js"></script>
+  <script src="shared.js"></script>
+  <script>
+    const L = CONFIG.letter;
+
+    // Set page title and headings
+    document.title = L.heading;
+    document.getElementById('letterHeading').textContent = L.heading;
+    document.getElementById('letterSign').textContent    = L.sign;
+    document.getElementById('letterName').textContent    = L.yourName;
+
+    // Render each paragraph from CONFIG.letter.paragraphs
+    const body = document.getElementById('letterBody');
+    L.paragraphs.forEach(text => {
+      const p = document.createElement('p');
+      p.textContent = text;
+      body.appendChild(p);
+    });
+
+    // Set background from config
+    setBackground(L.background);
+
+    // Navigate to gallery page
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      window.location.href = 'gallery.html';
+    });
+  </script>
+</body>
+</html>
