@@ -14,7 +14,7 @@ const CONFIG = {
     heading:    "Happy Birthday!",               // Big heading
     subtext:    "A little surprise just for you 💕", // Smaller line below
     buttonText: "Open Your Surprise 💌",             // Button label
-    background: "images/bg-landing.jpg",            // Background image path
+    background: "images/bg-gallery.jpg",            // Background image path
   },
 
 
@@ -24,7 +24,7 @@ const CONFIG = {
   // ─────────────────────────────────────────────────────
   letter: {
     heading:    "A Letter For You 💌",    
-    background: "images/bg-gallery.jpg",  // Background image
+    background: "images/bg-letter.jpg",  // Background image
     paragraphs: [
       // Each line here is one paragraph. Add as many as you want.
       
