@@ -44,11 +44,12 @@
     /* ── PARAGRAPHS ────────────────────────────────────────── */
     /* Each paragraph in CONFIG.letter.paragraphs becomes one <p> */
     .letter-card p {
-      font-size: 1.1rem;
-      line-height: 1.9;
+      font-size: 0.95rem;
+      line-height: 1.6;
       color: rgba(255, 255, 255, 0.93);
       margin-bottom: 1.5rem;
-      text-indent: 2em;          /* Classic letter indent */
+      text-indent: 0;
+      text-align: justify;          /* Classic letter indent */
     }
 
     .letter-card p:last-of-type {
@@ -65,14 +66,14 @@
 
     .signoff-line {
       display: block;
-      font-size: 1rem;
+      font-size: 0.95rem;
       color: rgba(255, 255, 255, 0.7);
       margin-bottom: 0.3rem;
     }
 
     .signoff-name {
       font-family: 'Dancing Script', cursive;
-      font-size: 2.2rem;
+      font-size: 1.5rem;
       color: var(--primary);
       display: block;
     }
