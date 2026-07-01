@@ -1,20 +1,4 @@
 #!/usr/bin/env python3
-"""
-╔══════════════════════════════════════════════════════════════╗
-║           BIRTHDAY WEBSITE — GITHUB SETUP SCRIPT            ║
-║  Run this once to create your private repo and push files.  ║
-╚══════════════════════════════════════════════════════════════╝
-
-BEFORE RUNNING:
-  1. Fill in your GITHUB_USERNAME and GITHUB_TOKEN below.
-  2. Get a token at:  https://github.com/settings/tokens/new
-       → Select scope: ✅ repo  (Full control of private repositories)
-  3. Open a terminal in this folder and run:
-       python setup.py
-
-REQUIREMENTS:  Python 3.7+  and  Git  installed on your machine.
-"""
-
 import os
 import sys
 import json
@@ -25,9 +9,9 @@ import urllib.error
 # ══════════════════════════════════════════════════════════════
 #  FILL THESE IN BEFORE RUNNING
 # ══════════════════════════════════════════════════════════════
-GITHUB_USERNAME = "devoeop"        # e.g.  "rajkumar"
-GITHUB_TOKEN    = "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"  # from github.com/settings/tokens
-REPO_NAME       = "birthday-surprise"           # name for the new private repo
+GITHUB_USERNAME = ""        # e.g.  "rajkumar"
+GITHUB_TOKEN    = ""  # from github.com/settings/tokens
+REPO_NAME       = ""           # name for the new private repo
 # ══════════════════════════════════════════════════════════════
 
 
