@@ -29,10 +29,10 @@ const CONFIG = {
     paragraphs: [
       // Each line here is one paragraph. Add as many as you want.
 
-      "Dearest Sanchita",
+      "Dearest Sanchita,",
       "Another year has passed, and if I'm honest, this one taught me something I didn't fully know before; how much your presence actually means to me. There was a moment this year when things got hard between us, when I genuinely feared we'd drift into silence and never quite find our way back to each other. It devastated me, more than I probably let on. But then, on my birthday, you wished me. And somehow that one small thing made me realize, what we have is real and it hasn't gone anywhere. You have this quiet way of being irreplaceable, not loud about it, but somehow woven so deeply into my days that everything just feels more alive.",
       "It's strange and kind of wonderful, actually, how far we've come in such little time. Some people spend years building what we somehow found so much faster. I'm grateful for you and your presence, and that's not something that changes with time or distance or difficult days — it just is, and it always will be.",
-      "So on your birthday, more than any wish for oceans or beaches or shells of joy, I just want everything you're hoping for to come true. You deserve it, all of it. Happy Birthday, my dearest. Here's to everything we've survived, and everything beautiful still ahead.",
+      "So on your birthday, more than any wish for oceans or beaches or shells of joy, I just want everything you're hoping for to come true. You deserve it, all of it. Happy Birthday, my dearest. Here's to everything you've survived, and everything beautiful still ahead of you.",
     ],
     sign:       "With all my heart,",      // Sign-off line above your name
     yourName:   "Debabrata",              // Your name
