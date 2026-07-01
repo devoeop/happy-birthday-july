@@ -49,11 +49,11 @@ const CONFIG = {
     photos: [
       // Add as many photos as you want. Each entry = one card in the grid.
       // src: file path to image | caption: text shown below it
-      { src: "images/gallery/photo1.JPG", caption: "Write a caption here" },
-      { src: "images/gallery/photo2.JPG", caption: "Write a caption here" },
-      { src: "images/gallery/photo3.JPG", caption: "Write a caption here" },
-      { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
-      { src: "images/gallery/photo5.png", caption: "Write a caption here" },
+      { src: "images/gallery/photo1.JPG", caption: "little tina has been a rockstar since day one" },
+      { src: "images/gallery/photo2.JPG", caption: "i hope you can ride a bicycle now 😂" },
+      { src: "images/gallery/photo3.JPG", caption: "i swear the sun has always had a favourite, and it's you" },
+      { src: "images/gallery/photo4.jpg", caption: "everytime i see this, all i hear is 'othaiyadi pathayila'... i guess it was written with you in mind" },
+      { src: "images/gallery/photo5.png", caption: "how can someone someone simply exist while looking this effortlessly perfect? ahhh" },
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
     ],
   },
