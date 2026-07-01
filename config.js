@@ -11,7 +11,7 @@ const CONFIG = {
   //  The first screen she sees when she opens the link.
   // ─────────────────────────────────────────────────────
   landing: {
-    heading:    "Happy Birthday!",               // Big heading
+    heading:    "Happy Birthday!",                   // Big heading
     subtext:    "A little surprise just for you 💕", // Smaller line below
     buttonText: "Open Your Surprise 💌",             // Button label
     background: "images/bg-gallery.jpg",            // Background image path
@@ -42,7 +42,7 @@ const CONFIG = {
   //  Birthday wish + all your photos together.
   // ─────────────────────────────────────────────────────
   gallery: {
-    wish:       "Cheers to this special day! 🎉",                  // Big wish at top
+    wish:       "Cheers to this special day!",                  // Big wish at top
     subwish:    "Here are some of my favourite moments of you 📸", // Smaller line
     background: "images/bg-landing.jpg",                           // Background image
     photos: [
