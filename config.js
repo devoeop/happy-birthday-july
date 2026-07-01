@@ -79,7 +79,7 @@ const CONFIG = {
   //  Tweak these numbers to change how the site feels.
   // ─────────────────────────────────────────────────────
   animations: {
-    backgroundOpacity: 0.05,    // Background image brightness:
+    backgroundOpacity: 0.85,    // Background image brightness:
                                 //   0.05 = almost invisible (very dark)
                                 //   0.30 = softly visible (recommended)
                                 //   0.80 = mostly visible (very bright)
