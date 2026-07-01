@@ -66,7 +66,7 @@ const CONFIG = {
       { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
       { src: "images/gallery/photo2.JPG", caption: "Write a caption here" },
       { src: "images/gallery/photo3.JPG", caption: "Write a caption here" },
-      { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
+      { src: "images/gallery/photo1.jpg", caption: "Write a caption here" },
       { src: "images/gallery/photo5.png", caption: "Write a caption here" },
       // To add more, copy the line above, paste it below, change filename + caption.
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
@@ -79,7 +79,7 @@ const CONFIG = {
   //  Tweak these numbers to change how the site feels.
   // ─────────────────────────────────────────────────────
   animations: {
-    backgroundOpacity: 0.30,    // Background image brightness:
+    backgroundOpacity: 0.075,    // Background image brightness:
                                 //   0.05 = almost invisible (very dark)
                                 //   0.30 = softly visible (recommended)
                                 //   0.80 = mostly visible (very bright)
@@ -88,13 +88,13 @@ const CONFIG = {
                                 //   0.5 = quick   |   2.0 = slow & dramatic
 
     floatingHearts:    true,    // Show floating hearts?  true  or  false
-    heartCount:        12,      // How many hearts float around (5–25 recommended)
+    heartCount:        10,      // How many hearts float around (5–25 recommended)
 
     sparkles:          true,    // Show sparkle particles?  true  or  false
 
     cardHoverLift:     true,    // Gallery cards lift on hover?  true  or  false
 
-    animationSpeed:   "normal", // Overall feel:  "slow"  |  "normal"  |  "fast"
+    animationSpeed:   "slow", // Overall feel:  "slow"  |  "normal"  |  "fast"
   },
 
 
