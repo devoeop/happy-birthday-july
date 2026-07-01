@@ -1,23 +1,9 @@
-/**
- * ╔══════════════════════════════════════════════════════════════╗
- * ║            BIRTHDAY WEBSITE — CONFIGURATION FILE            ║
- * ║                                                              ║
- * ║  ✏️  EDIT THIS FILE TO CUSTOMIZE EVERYTHING ON THE WEBSITE   ║
- * ╚══════════════════════════════════════════════════════════════╝
- *
- * HOW TO USE:
- *  1. Fill in all the fields below with your own content
- *  2. Add your images to the /images/ folder (see images/IMAGES_README.txt)
- *  3. Make sure image filenames below match what you named your files
- *  4. Push changes:  git add . && git commit -m "update" && git push
- */
-
 const CONFIG = {
 
   // ─────────────────────────────────────────────────────
   //  PERSONAL DETAILS
   // ─────────────────────────────────────────────────────
-  name: "Her Name",                      // ← Her name. Appears in browser tab.
+  name: "Sanch",                      // ← Her name.
 
 
   // ─────────────────────────────────────────────────────
@@ -25,7 +11,7 @@ const CONFIG = {
   //  The first screen she sees when she opens the link.
   // ─────────────────────────────────────────────────────
   landing: {
-    heading:    "Happy Birthday! 🎂",               // Big heading
+    heading:    "Happy Birthday!",               // Big heading
     subtext:    "A little surprise just for you 💕", // Smaller line below
     buttonText: "Open Your Surprise 💌",             // Button label
     background: "images/bg-landing.jpg",            // Background image path
@@ -34,21 +20,20 @@ const CONFIG = {
 
   // ─────────────────────────────────────────────────────
   //  PAGE 2 — LETTER
-  //  Shown after she clicks the button on page 1.
-  //  Looks like a handwritten letter.
+  //  Shown after she clicks the button on page 1
   // ─────────────────────────────────────────────────────
   letter: {
-    heading:    "A Letter For You 💌",    // Letter page heading
-    background: "images/bg-letter.jpg",  // Background image (can be same or different)
+    heading:    "A Letter For You 💌",    
+    background: "images/bg-gallery.jpg",  // Background image
     paragraphs: [
       // Each line here is one paragraph. Add as many as you want.
-      // Just copy the format below and paste a new line.
+      
       "Write your first paragraph here. Maybe start with how you feel about her.",
       "Your second paragraph goes here. A memory, something you love about her, or a wish.",
       "Keep adding more paragraphs by copying the line above and editing the text.",
     ],
     sign:       "With all my love,",      // Sign-off line above your name
-    yourName:   "Your Name",              // Your name at the end of the letter
+    yourName:   "Debabrata",              // Your name
   },
 
 
@@ -57,9 +42,9 @@ const CONFIG = {
   //  Birthday wish + all your photos together.
   // ─────────────────────────────────────────────────────
   gallery: {
-    wish:       "Happy Birthday! 🎉",                              // Big wish at top
-    subwish:    "Here are some of my favourite moments with you 📸", // Smaller line
-    background: "images/bg-gallery.jpg",                           // Background image
+    wish:       "Cheers to this special day! 🎉",                  // Big wish at top
+    subwish:    "Here are some of my favourite moments of you 📸", // Smaller line
+    background: "images/bg-landing.jpg",                           // Background image
     photos: [
       // Add as many photos as you want. Each entry = one card in the grid.
       // src: file path to image | caption: text shown below it
@@ -68,7 +53,6 @@ const CONFIG = {
       { src: "images/gallery/photo3.JPG", caption: "Write a caption here" },
       { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
       { src: "images/gallery/photo5.png", caption: "Write a caption here" },
-      // To add more, copy the line above, paste it below, change filename + caption.
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
     ],
   },
