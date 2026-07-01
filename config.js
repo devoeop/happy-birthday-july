@@ -53,7 +53,7 @@ const CONFIG = {
       { src: "images/gallery/photo2.JPG", caption: "i hope you can ride a bicycle now 😂" },
       { src: "images/gallery/photo3.JPG", caption: "i swear the sun has always had a favourite, and it's you" },
       { src: "images/gallery/photo4.jpg", caption: "everytime i see this, all i hear is 'othaiyadi pathayila'... i guess it was written with you in mind" },
-      { src: "images/gallery/photo5.png", caption: "how can someone someone simply exist while looking this effortlessly perfect? ahhh" },
+      { src: "images/gallery/photo5.png", caption: "how can someone simply exist while looking this effortlessly perfect? ahhh" },
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
     ],
   },
