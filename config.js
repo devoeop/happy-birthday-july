@@ -14,7 +14,8 @@ const CONFIG = {
     heading:    "Happy Birthday!",                   // Big heading
     subtext:    "A little surprise just for you 💕", // Smaller line below
     buttonText: "Open Your Surprise 💌",             // Button label
-    background: "images/bg-gallery.jpg",            // Background image path
+    background: "images/bg-gallery.jpg",             // Background image path
+    secretCode: "020726",                            // ← 6-digit code
   },
 
 
