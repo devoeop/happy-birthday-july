@@ -63,10 +63,10 @@ const CONFIG = {
     photos: [
       // Add as many photos as you want. Each entry = one card in the grid.
       // src: file path to image | caption: text shown below it
-      { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
+      { src: "images/gallery/photo1.JPG", caption: "Write a caption here" },
       { src: "images/gallery/photo2.JPG", caption: "Write a caption here" },
       { src: "images/gallery/photo3.JPG", caption: "Write a caption here" },
-      { src: "images/gallery/photo1.jpg", caption: "Write a caption here" },
+      { src: "images/gallery/photo4.jpg", caption: "Write a caption here" },
       { src: "images/gallery/photo5.png", caption: "Write a caption here" },
       // To add more, copy the line above, paste it below, change filename + caption.
       // { src: "images/gallery/photo4.jpg", caption: "Another memory 💕" },
@@ -79,12 +79,12 @@ const CONFIG = {
   //  Tweak these numbers to change how the site feels.
   // ─────────────────────────────────────────────────────
   animations: {
-    backgroundOpacity: 0.075,    // Background image brightness:
+    backgroundOpacity: 0.05,    // Background image brightness:
                                 //   0.05 = almost invisible (very dark)
                                 //   0.30 = softly visible (recommended)
                                 //   0.80 = mostly visible (very bright)
 
-    fadeInDuration:    1.2,     // Seconds for each page to fade in on load.
+    fadeInDuration:    1.0,     // Seconds for each page to fade in on load.
                                 //   0.5 = quick   |   2.0 = slow & dramatic
 
     floatingHearts:    true,    // Show floating hearts?  true  or  false
